@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES := \
 # Camera
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/hw/camera.montblanc.so:system/lib/hw/camera.montblanc.so \
-    $(LOCAL_PATH)/system/lib/libFFTEm.so:system/lib/libFFTEm.so \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/aptina_mt9v113.dat:system/usr/share/camera/config_file/aptina_mt9v113.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/dongbu_db8131m.dat:system/usr/share/camera/config_file/dongbu_db8131m.dat \
     $(LOCAL_PATH)/system/usr/share/camera/config_file/omnivision_ov5640_pri.dat:system/usr/share/camera/config_file/omnivision_ov5640_pri.dat \
@@ -98,10 +97,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 # Display
-#PRODUCT_COPY_FILES += \
-#    $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
-#    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
-#    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/lib/hw/gralloc.montblanc.so:system/lib/hw/gralloc.montblanc.so \
+    $(LOCAL_PATH)/system/lib/hw/hwcomposer.montblanc.so:system/lib/hw/hwcomposer.montblanc.so \
+    $(LOCAL_PATH)/system/lib/hw/copybit.montblanc.so:system/lib/hw/copybit.montblanc.so
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -178,7 +177,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsterc.so:system/lib/libsterc.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so \
-    $(LOCAL_PATH)/system/lib/libstlport.so:system/lib/libstlport.so \
+    $(LOCAL_PATH)/system/lib/libui.so:system/lib/libui.so \
     $(LOCAL_PATH)/system/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so
 
 # OMX

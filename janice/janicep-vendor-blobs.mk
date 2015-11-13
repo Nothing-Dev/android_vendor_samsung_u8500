@@ -177,7 +177,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/lib/libsterc.so:system/lib/libsterc.so \
     $(LOCAL_PATH)/system/lib/libtee.so:system/lib/libtee.so \
     $(LOCAL_PATH)/system/lib/libtrace.so:system/lib/libtrace.so \
-    $(LOCAL_PATH)/system/lib/libui.so:system/lib/libui.so \
     $(LOCAL_PATH)/system/lib/libste_aiq_tools.so:system/lib/libste_aiq_tools.so
 
 # OMX
